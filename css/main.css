@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.container{
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 4em;
+    border-top: 0.5em solid #346A5F;
+    box-shadow: 0.05em 0.05em 1em #616161;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    width: 40%;
+    display: inherit;
+    justify-content: inherit;
+}
+
+.nav-list{
+    display: inherit;
+    justify-content: inherit;
+    list-style: none;
+}
+
+.nav-link{
+    margin: 0 1em;
+    align-self: center;
+}
+
+.nav-link > a{
+    text-decoration: none;
+    color: #34A18E;
+    font-family: "Fjalla One";
+    font-size: 1.2em;
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgb(39, 99, 69,0.5), rgb(33, 163, 143,0.9)), url("../image-45799651-cool-wallpapers-1366x768.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 100%;
+    height: 700px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #346A5F;
+    height: 5.5em;
+}
+
+.footer-content{
+    display: flex;
+    font-family: "Fjalla One";
+    color: #FFF;
+    justify-content: space-between;
+}
+
+.footer-contentAddress{
+    align-self: center;
+}
+
+.footer-contentPhones{
+   align-self: center;
+   justify-self: center;
+}
