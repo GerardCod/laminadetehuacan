@@ -1,3 +1,5 @@
+
+
 insert into categoria values(1,"CARROCERIAS");
 insert into categoria values(2,"SEMIRREMOLQUES");
 insert into categoria values(3,"VOLTEOS");

@@ -17,16 +17,16 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-linkCont">
-                        <a href="./index.html" class="nav-link">Inicio</a>
+                        <a href="./index.php" class="nav-link">Inicio</a>
                     </li>
                     <li class="nav-linkCont">
-                        <a href="./views/products.html" class="nav-link">Productos</a>
+                        <a href="./views/products.php" class="nav-link">Productos</a>
                     </li>
                     <li class="nav-linkCont">
-                        <a href="./views/services.html" class="nav-link">Servicios</a>
+                        <a href="./views/services.php" class="nav-link">Servicios</a>
                     </li>
                     <li class="nav-linkCont">
-                        <a href="./views/aboutus.html" class="nav-link">Conózcanos</a>
+                        <a href="./views/aboutus.php" class="nav-link">Conózcanos</a>
                     </li>
                 </ul>
             </nav>
