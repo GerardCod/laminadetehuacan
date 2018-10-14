@@ -81,8 +81,33 @@
         </div>
     </section>
     <section class="clients">
+        <div class="clients-title">
+            <h2>Nuestros clientes</h2>
+        </div>
         <div class="slider">
-
+            <ul>
+                <li>
+                    <img src="./assets/clients/autos-pullman.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./assets/clients/excel-nobleza.png" alt="">
+                </li>
+                <li>
+                    <img src="./assets/clients/grupo -srs.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./assets/clients/huevo-el-calvario.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./assets/clients/tecnocor.png" alt="">
+                </li>
+                <li>
+                    <img src="./assets/clients/tehuacan.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./assets/clients/vitalizadora-union.jpg" alt="">
+                </li>
+            </ul>
         </div>        
     </section>
     <section class="contacto">
