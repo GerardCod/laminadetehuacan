@@ -70,7 +70,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: linear-gradient(to bottom right, rgb(39, 99, 69,0.5), rgb(33, 163, 143,0.5)), url("../assets/palacio.jpg");
+    background-image: linear-gradient(to bottom right, rgb(39, 99, 69,0.5), rgb(33, 163, 143,0.5)), url("../assets/collage.JPG");
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     background-clip: content-box;
@@ -190,7 +190,7 @@ body{
 }
 
 .clients{
-    background: #f1f1f1;
+    background: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
