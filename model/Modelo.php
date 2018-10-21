@@ -41,10 +41,32 @@ class Modelo {
         return $sentencia->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function mostrarProductosCategoria($categoria){
+    public function getProductosCategoria($categoria){
         $sentencia = $this->conexion->prepare("SELECT * FROM producto WHERE categoria = ?");
         $sentencia->bindParam(1, $categoria);
         $sentencia->execute();
         return $sentencia->fetchAll(PDO::FETCH_ASSOC);
     }
+
+    public function getProductos(){
+        $sentencia = $this->conexion->prepare("");
+        $sentencia->execute();
+        return $sentencia->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function getDescripcionById($id){
+        $sentencia = $this->conexion->prepare("SELECT descripcion from producto where id_producto = ?");
+        $sentencia->bindValue(1, $id);
+        $sentencia->execute();
+        return $sentencia->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function getImagesById($id){
+        $sentencia = $this->conexion->prepare("SELECT nombre from imagen WHERE producto = ?");
+        $sentencia->bindValue(1,$id);
+        $sentencia->execute();
+        return $sentencia->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+
 }

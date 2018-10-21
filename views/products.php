@@ -1,3 +1,8 @@
+<?php 
+    require_once '../model/Modelo.php';
+    require_once '../controller/ProductController.php';
+    $controlador = new ProductController();
+?>
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
@@ -9,10 +14,10 @@
     <title>Lámina de Tehuacán S.A. de C.V.</title>
 </head>
 <body>
-    <header class="header">
+<header class="header">
         <div class="container menu">
             <figure class="logo">
-                <img src="" alt="">
+                <img src="../assets/logo.jpg" alt="Logo">
             </figure>
             <nav class="nav">
                 <ul class="nav-list">
@@ -32,5 +37,49 @@
             </nav>
         </div>
     </header>
+    <section class="products-slide">
+        <div class="slider">
+            <ul>
+                <li>
+                    <img src="../assets/autotanque_sobre_camion1.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/carroceria_caja_redillas1.png" alt="">
+                </li>
+                <li>
+                    <img src="./assets/equipo_especial_tolva1.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/equipo_antena1.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/equipo_placa_señalamiento1.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/estructura_gradas1.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/estructura01.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/planta_industrial_alimentos01.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/invernaderos1.png" alt="">
+                </li>
+                <li>
+                    <img src="../assets/carroceria_sobre_inoxidable.png" alt="">
+                </li>
+            </ul>
+        </div>        
+    </section>
+
+    <section class="productos">
+        <div class="container">
+            <div class="products-list">
+                <?php  ?>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

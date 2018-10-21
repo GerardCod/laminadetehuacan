@@ -12,7 +12,7 @@
     <header class="header">
         <div class="container menu">
             <figure class="logo">
-                <img src="" alt="">
+                <img src="../assets/logo.jpg" alt="Logo">
             </figure>
             <nav class="nav">
                 <ul class="nav-list">
