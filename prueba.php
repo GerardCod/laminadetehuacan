@@ -5,4 +5,4 @@ require_once 'controller/ProductController.php';
 
 $controlador = new ProductController();
 $modelo = new Modelo();
-echo $controlador->mostrarProductoPorId(13);
+$controlador->mostrarProductoPorId(13);

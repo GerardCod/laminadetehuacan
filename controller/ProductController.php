@@ -44,6 +44,6 @@ class ProductController{
         $acu .= '<img src="assets/'.$imagen["nombre"].'">';
       }
 
-      return $acu;
+      echo $acu;
     }
 }
